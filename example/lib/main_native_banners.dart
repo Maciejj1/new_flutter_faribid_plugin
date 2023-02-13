@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:new_flutter_fairbid/fairbid_flutter.dart';
+import 'package:new_flutter_fairbid/new_flutter_fairbid.dart';
 
 void main() => runApp(MyApp());
 

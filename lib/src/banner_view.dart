@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:new_flutter_fairbid/src/internal.dart';
-import 'package:new_flutter_fairbid/fairbid_flutter.dart';
+import 'package:new_flutter_fairbid/new_flutter_fairbid.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:rxdart/rxdart.dart';

@@ -1,5 +1,5 @@
 import 'package:fairbid_flutter_example/events_preview.dart';
-import 'package:new_flutter_fairbid/fairbid_flutter.dart';
+import 'package:new_flutter_fairbid/new_flutter_fairbid.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
