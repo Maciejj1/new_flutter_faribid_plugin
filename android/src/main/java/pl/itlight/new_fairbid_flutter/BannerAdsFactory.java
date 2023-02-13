@@ -1,4 +1,4 @@
-package pl.ukaszapps.fairbid_flutter;
+package pl.itlight.new_fairbid_flutter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -30,7 +30,7 @@ import io.flutter.plugin.common.StandardMessageCodec;
 import io.flutter.plugin.platform.PlatformView;
 import io.flutter.plugin.platform.PlatformViewFactory;
 
-import static pl.ukaszapps.fairbid_flutter.FairBidFlutterPlugin.debugLogging;
+import static pl.itlight.new_fairbid_flutter.FairBidFlutterPlugin.debugLogging;
 
 final class BannerAdsFactory extends PlatformViewFactory implements BannerListener {
 

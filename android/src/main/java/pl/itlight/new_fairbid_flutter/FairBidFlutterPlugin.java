@@ -1,4 +1,4 @@
-package pl.itlight.fairbid_flutter;
+package pl.itlight.new_fairbid_flutter;
 
 import android.app.Activity;
 import android.content.Context;

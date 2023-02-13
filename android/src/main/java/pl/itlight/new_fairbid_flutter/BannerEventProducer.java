@@ -1,4 +1,4 @@
-package pl.itlight.fairbid_flutter;
+package pl.itlight.new_fairbid_flutter;
 
 import androidx.annotation.NonNull;
 

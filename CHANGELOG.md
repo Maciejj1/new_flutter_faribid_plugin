@@ -1,3 +1,5 @@
+### 2.0.2
+* Fix bug with main class
 ### 2.0.1
 * Fix bug with main class
 ### 2.0.0

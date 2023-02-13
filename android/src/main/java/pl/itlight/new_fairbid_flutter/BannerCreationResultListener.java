@@ -1,4 +1,4 @@
-package pl.itlight.fairbid_flutter;
+package pl.itlight.new_fairbid_flutter;
 
 import android.util.Log;
 
@@ -14,7 +14,7 @@ import java.util.Map;
 
 import io.flutter.plugin.common.MethodChannel;
 
-import static pl.ukaszapps.fairbid_flutter.FairBidFlutterPlugin.runOnMain;
+import static pl.itlight.new_fairbid_flutter.FairBidFlutterPlugin.runOnMain;
 
 class BannerCreationResultListener implements BannerListener {
 
