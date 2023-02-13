@@ -1,0 +1,58 @@
+buildscript {
+    ext.kotlin_version = '1.4.21'
+    repositories {
+        google()
+        jcenter()
+
+        maven {
+            url  "https://google.bintray.com/exoplayer"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.3'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            name "ironSource's maven repository"
+            url 'https://android-sdk.is.com/'
+        }
+        maven {
+            url "https://jitpack.io"
+        }
+        maven {
+            name "Fyber's maven repo"
+            url "https://fyber.bintray.com/maven"
+        }
+        maven {
+            name "Tapjoy's maven repo"
+            url "https://tapjoy.bintray.com/maven"
+        }
+        maven {
+            name "HyprMX's maven repo"
+            url "https://raw.githubusercontent.com/HyprMXMobile/Android-SDKs/master"
+        }
+        maven {
+	        name "UnityAds's maven repo"
+	        url "https://dl.bintray.com/unityads/UnityAds"
+	    }
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

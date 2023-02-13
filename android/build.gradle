@@ -1,0 +1,45 @@
+group 'pl.itlight.new_fairbid_flutter'
+version '1.0'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+
+    dependencies {
+         classpath 'com.android.tools.build:gradle:7.0.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        mavenCentral()
+        google()
+        maven{
+            url "https://mvnrepository.com/artifact/com.fyber/fairbid-sdk"
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 16
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    dependencies {
+    implementation 'com.fyber:fairbid-sdk:3.35.0'
+    //noinspection GradleDynamicVersion
+    implementation 'com.google.android.gms:play-services-ads-identifier:17.1.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+}
+
+}
+
