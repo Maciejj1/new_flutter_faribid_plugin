@@ -3,7 +3,7 @@
 /// See [FairBid SDK official documentation](https://developer.fyber.com/hc/en-us/categories/360001778457-Fyber-FairBid).
 ///
 /// Starting point is a [FairBid] class which is used to initialize the native SDK
-library fairbid_flutter;
+library new_flutter_fairbid;
 
 import 'src/internal.dart';
 export 'src/banner_view.dart' show BannerView;
